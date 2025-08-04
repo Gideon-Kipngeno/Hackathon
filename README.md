@@ -19,41 +19,21 @@ This repository showcases my hackathon project, personal portfolio
 
 ## Tech Stack
 Technologies Used
-    "HTML5" : 35
-    "CSS3" : 30
-    "JavaScript" : 20
-    "Git/GitHub" : 15
-Project Structure
-portfolio/
-├── assets/
-│   ├── css/styles.css
-│   ├── img/
-│   │   ├── Profile picture.jpg
-│   │   ├── Appraisal.JPG
-│   │   └── Website.jpg
-│   └── docs/Gideon's Cv.pdf
-├── index.html
-├── README.md
-└── LICENSE
+    HTML5
+    CSS3
+    JavaScript
+    Git/GitHub
 Installation
 Clone repository:
-
-bash
-git clone https://github.com/Gideon-Kipngeno/plp-hackathon-portfolio.git
+ git clone https://github.com/Gideon-Kipngeno/plp-hackathon-portfolio.git
 Open in browser:
-
-bash
-cd plp-hackathon-portfolio && start index.html
-Design Highlights
-PLP Brand Colors: Custom CSS variables matching PLP's blue theme
-
+ cd plp-hackathon-portfolio && start index.html
 Mobile-First Approach: 3 responsive breakpoints (mobile/tablet/desktop)
-
 Hover Animations: Smooth transitions on interactive elements
 
 Featured Projects
 1. Staff Appraisal System
-https://./Appraisal.JPG
+Appraisal.JPG
 
 Tech: Python, Django, MySQL
 
@@ -78,9 +58,3 @@ Responsive images
 
 License
 GNU Licensed. See LICENSE for details.
-
-
-Connect:
-https://img.shields.io/badge/-Kipngenio@gmail.com-D14836?style=flat&logo=gmail&logoColor=white
-https://img.shields.io/badge/-Gideon_Kipngeno-0077B5?style=flat&logo=linkedin&logoColor=white
-https://img.shields.io/badge/-@Gideon--Kipngeno-181717?style=flat&logo=github
