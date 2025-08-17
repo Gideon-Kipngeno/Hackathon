@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gideon Kipngeno's portfolio showcasing skills, projects, and experience as a web developer and PLP July 2025 Hackathon participant">
+    <title>Gideon Kipngeno | Software Engineer</title>
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+    <!-- CSS -->
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"></noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Theme Switch -->
+    <button class="theme-switch" id="themeSwitch" aria-label="Toggle dark/light mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info sticky-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <span class="text-primary">GIDEON</span>KIPNGENO
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="floating-shapes animate__animated animate__fadeIn animate__delay-1s d-none d-lg-block">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="container hero-content text-center text-white py-5 animate__animated animate__fadeIn animate__delay-1s">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mx-auto">
+                    <p class="fw-bold text-warning">PLP July 2025 Hackathon Participant</p>
+                    <h1 class="hero-title animate__animated animate__fadeInDown">Gideon Kipngeno</h1>
+                    <h2 class="typewriter text-white mb-4 animate__animated animate__fadeIn" id="typewriter"></h2>
+                    <p class="lead mb-4 animate__animated animate__fadeIn">
+                        I build exceptional digital experiences that solve real-world problems through clean, efficient code and innovative design.
+                    </p>
+                    <div class="d-flex gap-3 justify-content-center animate__animated animate__fadeInUp">
+                        <a href="#projects" class="btn btn-primary btn-lg px-4">
+                            <i class="fas me-2"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg px-4">
+                            <i class="fas fa-paper-plane me-2"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 mb-5 mb-lg-0">
+                        <div class="position-relative">
+                            <img src="images/Profile picture.jpg" alt="Gideon Kipngeno" class="img-fluid rounded-circle shadow-lg" width="400" height="400" loading="lazy">
+                            <div class="position-absolute bottom-0 start-0 bg-primary text-white p-3 rounded-5">
+                                <h4 class="mb-0">5+ Years</h4>
+                                <p class="mb-0">Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h2 class="section-title">About Me</h2>
+                        <p class="lead">Innovative Web Developer & Problem Solver</p>
+                        <p>Hello! I'm Gideon Kipngeno, a passionate software engineer specializing in building exceptional digital experiences. With over 5 years in the industry, I've helped numerous clients bring their ideas to life through clean, efficient code and thoughtful design.</p>
+                        
+                        <div class="row mt-4 g-4">
+                            <div class="col-md-6">
+                                <ul class="list-unstyled">
+                                    <li class="mb-2">
+                                        <i class="fas fa-check-circle text-primary me-2"></i>
+                                        <strong>Name:</strong> Gideon Kipngeno
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-check-circle text-primary me-2"></i>
+                                        <strong>Email:</strong> kipngenio@gmail.com
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-check-circle text-primary me-2"></i>
+                                        <strong>Phone:</strong> +254 726 550 759
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2">
+                                        <i class="fas fa-check-circle text-primary me-2"></i>
+                                        <strong>From:</strong> Nairobi, Kenya
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-check-circle text-primary me-2"></i>
+                                        <strong>Freelance:</strong> Available
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-check-circle text-primary me-2"></i>
+                                        <strong>Hackathon:</strong> PLP July 2025
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <a href="#" download class="btn btn-primary me-3">
+                                <i class="fas fa-download me-2"></i> Download CV
+                            </a>
+                            <a href="#contact" class="btn btn-outline-light">
+                                <i class="fas fa-paper-plane me-2"></i> Hire Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-5 bg-dark text-white">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <p class="lead">The tools and technologies I work with</p>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="skill-card h-100">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fab fa-html5 text-danger fs-1 me-3"></i>
+                                <h5 class="mb-0">Frontend Development</h5>
+                            </div>
+                            <p>Building responsive, accessible, and performant user interfaces with modern technologies.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary me-2"></i> HTML5 & CSS3</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> JavaScript (ES6+)</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> React & Vue.js</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Bootstrap & Tailwind</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-3">
+                        <div class="skill-card h-100">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fab fa-python text-info fs-1 me-3"></i>
+                                <h5 class="mb-0">Backend Development</h5>
+                            </div>
+                            <p>Creating robust server-side applications and APIs with modern frameworks.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary me-2"></i> Python & Django</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Node.js & Express</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> RESTful APIs</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> GraphQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-3">
+                        <div class="skill-card h-100">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-database text-warning fs-1 me-3"></i>
+                                <h5 class="mb-0">Database & DevOps</h5>
+                            </div>
+                            <p>Designing efficient data storage solutions and deployment pipelines.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary me-2"></i> PostgreSQL & MySQL</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> MongoDB</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Docker & Kubernetes</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> CI/CD Pipelines</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-3">
+                        <div class="skill-card h-100">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-mobile-alt text-success fs-1 me-3"></i>
+                                <h5 class="mb-0">Other Skills</h5>
+                            </div>
+                            <p>Additional technologies and methodologies I'm proficient with.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary me-2"></i> Git & GitHub</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> UI/UX Design</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Agile Methodology</li>
+                                <li><i class="fas fa-check text-primary me-2"></i> Testing & Debugging</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-5 text-center">
+                    <h4 class="mb-4">Languages & Tools</h4>
+                    <div class="d-flex flex-wrap gap-3">
+                        <span class="badge bg-primary bg-opacity-10 text-white p-3 fs-6">
+                            <i class="fab fa-html5 me-2"></i> HTML5
+                        </span>
+                        <span class="badge bg-primary bg-opacity-10 text-white p-3 fs-6">
+                            <i class="fab fa-css3-alt me-2"></i> CSS3
+                        </span>
+                        <span class="badge bg-primary bg-opacity-10 text-white p-3 fs-6">
+                            <i class="fab fa-js me-2"></i> JavaScript
+                        </span>
+                        <span class="badge bg-primary bg-opacity-10 text-white p-3 fs-6">
+                            <i class="fab fa-python me-2"></i> Python
+                        </span>
+                        <span class="badge bg-primary bg-opacity-10 text-white p-3 fs-6">
+                            <i class="fab fa-react me-2"></i> React
+                        </span>
+                        <span class="badge bg-primary bg-opacity-10 text-white p-3 fs-6">
+                            <i class="fab fa-node-js me-2"></i> Node.js
+                        </span>
+                        <span class="badge bg-primary bg-opacity-10 text-white p-3 fs-6">
+                            <i class="fab fa-git-alt me-2"></i> Git
+                        </span>
+                        <span class="badge bg-primary bg-opacity-10 text-white p-3 fs-6">
+                            <i class="fas fa-database me-2"></i> SQL
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education -->
+        <section id="experience" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Experience & Education</h2>
+                    <p class="lead">My professional journey and academic background</p>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <h3 class="mb-4"><i class="fas fa-briefcase text-primary me-2"></i> Experience</h3>
+                        
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <h5>Senior Web Developer</h5>
+                                <p class="text-muted mb-1">Tech Solutions Africa | 2023 - Present</p>
+                                <p>Lead a team of developers in building enterprise web applications for clients across Africa. Implemented CI/CD pipelines reducing deployment times by 40%.</p>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h5>Frontend Developer</h5>
+                                <p class="text-muted mb-1">Digital Creations Ltd | 2021 - 2023</p>
+                                <p>Developed responsive user interfaces for e-commerce platforms, improving conversion rates by 25% through UX optimizations.</p>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h5>Junior Developer</h5>
+                                <p class="text-muted mb-1">Freelance | 2022 - 2023</p>
+                                <p>Built websites and web applications for small businesses, helping them establish their online presence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <h3 class="mb-4"><i class="fas fa-graduation-cap text-primary me-2"></i> Education</h3>
+                        
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <h5>Power Learn Project (PLP) Africa</h5>
+                                <p class="text-muted mb-1">Software Engineering | 2025</p>
+                                <p>Completed intensive training in full-stack web development, Python programming, and database management.</p>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h5>Zetech University</h5>
+                                <p class="text-muted mb-1">BSc Information Technology | 2020</p>
+                                <p>Graduated with honors, specializing in web development and database systems.</p>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h5>Certifications</h5>
+                                <p class="text-muted mb-1">Various | 2022 - Present</p>
+                                <p>Responsive Web Design (freeCodeCamp), Python for Everybody (NetAcad), Git & GitHub Mastery (Courera).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-5 bg-dark">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="lead">A selection of my recent work</p>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card h-100">
+                            <img src="images/pexels-ekrulila-18338616.jpg" class="card-img-top" alt="E-commerce Platform" width="600" height="400" loading="lazy">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h5 class="card-title mb-0">E-commerce Platform</h5>
+                                    <span class="badge bg-primary">Web</span>
+                                </div>
+                                <p class="card-text">A full-featured online store with payment integration, inventory management, and customer analytics.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a href="#" class="btn btn-sm btn-outline-light">View Details</a>
+                                    <div>
+                                        <a href="#" class="text-white me-2" aria-label="GitHub repository"><i class="fab fa-github"></i></a>
+                                        <a href="#" class="text-white" aria-label="Live demo"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card h-100">
+                            <img src="images/pexels-olly-3823488.jpg" class="card-img-top" alt="Task Management App" width="600" height="400" loading="lazy">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h5 class="card-title mb-0">Task Management App</h5>
+                                    <span class="badge bg-primary">Web</span>
+                                </div>
+                                <p class="card-text">A collaborative task management solution with real-time updates and team productivity tracking.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a href="#" class="btn btn-sm btn-outline-light">View Details</a>
+                                    <div>
+                                        <a href="#" class="text-white me-2" aria-label="GitHub repository"><i class="fab fa-github"></i></a>
+                                        <a href="#" class="text-white" aria-label="Live demo"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card h-100">
+                            <img src="images/pexels-ketut-subiyanto-4353588.jpg" class="card-img-top" alt="Health Tracker Mobile App" width="600" height="400" loading="lazy">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h5 class="card-title mb-0">Health Tracker</h5>
+                                    <span class="badge bg-success">Mobile</span>
+                                </div>
+                                <p class="card-text">A fitness and nutrition tracking application with personalized recommendations and progress analytics.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a href="#" class="btn btn-sm btn-outline-light">View Details</a>
+                                    <div>
+                                        <a href="#" class="text-white me-2" aria-label="GitHub repository"><i class="fab fa-github"></i></a>
+                                        <a href="#" class="text-white" aria-label="Live demo"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-5">
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-eye me-2"></i> View All Projects
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Client Testimonials</h2>
+                    <p class="lead">What people say about my work</p>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="testimonial-card h-100">
+                            <div class="d-flex align-items-center mb-4">
+                                <img src="images/client.jpg" alt="Jane Edward" class="rounded-pill me-3" width="60" height="60" loading="lazy">
+                                <div>
+                                    <h5 class="mb-0">Jane Edward</h5>
+                                    <p class="text-muted mb-0">CEO, Tech Solutions</p>
+                                </div>
+                            </div>
+                            <p class="mb-0">"Gideon delivered our e-commerce platform ahead of schedule with exceptional quality. His attention to detail and problem-solving skills are remarkable. We've seen a 40% increase in online sales since launch."</p>
+                            <div class="rating mt-3 text-warning">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <span class="sr-only">5 out of 5 stars</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="testimonial-card h-100">
+                            <div class="d-flex align-items-center mb-4">
+                                <img src="images/client.jpg" alt="John Smith" class="rounded-pill me-3" width="60" height="60" loading="lazy">
+                                <div>
+                                    <h5 class="mb-0">John Smith</h5>
+                                    <p class="text-muted mb-0">Director, Digital Agency</p>
+                                </div>
+                            </div>
+                            <p class="mb-0">"Working with Gideon on our task management app was a game-changer. He not only implemented our requirements perfectly but also suggested improvements that significantly enhanced user experience."</p>
+                            <div class="rating mt-3 text-warning">
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                                <span class="sr-only">4.5 out of 5 stars</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-5 bg-dark">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="lead">Let's work together on your next project</p>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-5 mb-5 mb-lg-0">
+                        <h4 class="mb-4">Contact Information</h4>
+                        <p class="mb-4">Feel free to reach out to me for project inquiries, collaborations, or just to say hello</p>
+                        
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                                <span>Nairobi, Kenya</span>
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-envelope text-primary me-3"></i>
+                                <span>kipngenio@gmail.com</span>
+                            </li>
+                            <li class="mb-3">
+                                <i class="fas fa-phone text-primary me-3"></i>
+                                <span>+254 726 550 759</span>
+                            </li>
+                        </ul>
+                        
+                        <div class="mt-4">
+                            <a href="#" class="social-icon" aria-label="GitHub profile"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon" aria-label="LinkedIn profile"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon" aria-label="Twitter profile"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon" aria-label="Instagram profile"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-7">
+                        <form class="contact-form needs-validation" id="contactForm" novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label">Your Name *</label>
+                                    <input type="text" class="form-control" id="name" required minlength="2">
+                                    <div class="invalid-feedback">Please enter your name (at least 2 characters).</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Your Email *</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="subject" class="form-label">Subject *</label>
+                                    <input type="text" class="form-control" id="subject" required minlength="5">
+                                    <div class="invalid-feedback">Please enter a subject (at least 5 characters).</div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea class="form-control" id="message" rows="5" required minlength="10"></textarea>
+                                    <div class="invalid-feedback">Please enter a message (at least 10 characters).</div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="checkbox" id="consent" required>
+                                        <label class="form-check-label" for="consent">I consent to having my data processed according to your <a href="#" class="text-primary">privacy policy</a> *</label>
+                                        <div class="invalid-feedback">You must agree before submitting.</div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="fas fa-paper-plane me-2"></i> Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-black text-center">
+        <div class="container">
+            <!-- <div class="mb-3">
+                <a href="#" class="navbar-brand fw-bold position-relative start-50 translate-middle-x">
+                    <span class="text-primary">G</span>K
+                </a>
+            </div> -->
+            <p class="mb-3">Building digital experiences that make a difference.</p>
+            <div class="mb-3">
+                <a href="#" class="social-icon" aria-label="GitHub profile"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon" aria-label="LinkedIn profile"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon" aria-label="Twitter profile"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon" aria-label="Instagram profile"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="mb-0">&copy; <span id="year"></span> Gideon Kipngeno. All Rights Reserved.</p>
+            <p class="text-muted small mt-2">PLP July 2025 Hackathon Submission</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
+    <script>
+        // Load AOS only if needed
+        function loadAOS() {
+            if (window.innerWidth > 768) {
+                const script = document.createElement('script');
+                script.src = 'https://unpkg.com/aos@2.3.1/dist/aos.js';
+                script.onload = function() {
+                    AOS.init({
+                        duration: 800,
+                        easing: 'ease-in-out',
+                        once: true
+                    });
+                };
+                document.head.appendChild(script);
+            }
+        }
+        
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+        
+        // Initialize Typed.js after DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load Typed.js
+            new Typed('#typewriter', {
+                strings: ['Web Developer', 'UI/UX Designer', 'Python Programmer', 'Tech Enthusiast'],
+                typeSpeed: 50,
+                backSpeed: 30,
+                loop: true,
+                showCursor: true,
+                cursorChar: '|'
+            });
+            
+            // Back to Top Button
+            const backToTopButton = document.getElementById('backToTop');
+            
+            window.addEventListener('scroll', function() {
+                backToTopButton.style.display = (window.pageYOffset > 300) ? 'block' : 'none';
+            });
+            
+            backToTopButton.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.scrollTo({top: 0, behavior: 'smooth'});
+            });
+            
+            // Theme Switcher
+            const themeSwitch = document.getElementById('themeSwitch');
+            const htmlElement = document.documentElement;
+            
+            themeSwitch.addEventListener('click', function() {
+                if (htmlElement.getAttribute('data-bs-theme') === 'dark') {
+                    htmlElement.setAttribute('data-bs-theme', 'light');
+                    themeSwitch.innerHTML = '<i class="fas fa-sun"></i>';
+                    localStorage.setItem('theme', 'light');
+                } else {
+                    htmlElement.setAttribute('data-bs-theme', 'dark');
+                    themeSwitch.innerHTML = '<i class="fas fa-moon"></i>';
+                    localStorage.setItem('theme', 'dark');
+                }
+            });
+            
+            // Check for saved theme preference
+            if (localStorage.getItem('theme') === 'light') {
+                htmlElement.setAttribute('data-bs-theme', 'light');
+                themeSwitch.innerHTML = '<i class="fas fa-sun"></i>';
+            }
+            
+            // Form Validation
+            const form = document.getElementById('contactForm');
+            if (form) {
+                form.addEventListener('submit', function(event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            }
+            
+            // Load AOS conditionally
+            loadAOS();
+        });
+    </script>
+</body>
+</html>
