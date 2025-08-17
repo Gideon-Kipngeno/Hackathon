@@ -102,7 +102,7 @@ img {
   inset: 0;
   background: 
     linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,220) 60%),
-    url('images/Background.jpg') no-repeat right center;
+    url('https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg') no-repeat right center;
   background-size: auto 100%, cover;
   opacity: 0.8;
   z-index: -1;
