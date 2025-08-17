@@ -6,7 +6,7 @@ This repository showcases my hackathon project, personal portfolio
 **Best in Category:** Web Development  
 
 ## Live Demo
-[View Live Portfolio](https://gideon-kipngeno.github.io) *(Hosted on GitHub Pages)*  
+[View Live Portfolio](https://gideon-kipngeno.github.io/Hackathon/) *(Hosted on GitHub Pages)*  
 
 ## Features
 | Feature | Description |
@@ -25,7 +25,7 @@ Technologies Used
     Git/GitHub
 Installation
 Clone repository:
- git clone https://github.com/Gideon-Kipngeno/plp-hackathon-portfolio.git
+ git clone https://github.com/Gideon-Kipngeno/Hackathon.git
 Open in browser:
  cd plp-hackathon-portfolio && start index.html
 Mobile-First Approach: 3 responsive breakpoints (mobile/tablet/desktop)
